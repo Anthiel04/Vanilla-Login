@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box" id="error">
+        <p id="errormsg"></p><button class="button" id="close">Close</button>
+    </div>
+    <main>
+        <div id="flex">
+            <div class="logo">
+                <p class="uni_p">HarDarv</p>
+                <p class="uni_sp">University</p>
+            </div>
+            <form action="" class="box">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required minlength="5" maxlength="40"
+                    placeholder="Harry Osvald Mckinzey" autocomplete="name">
+                <label for="mail">Email</label>
+                <input type="email" id="mail" name="mail" required minlength="11" placeholder="harryomck@gmail.com">
+                <label for="career">Career</label>
+                <select name="career" id="career" required>
+                    <option value="" selected hidden disabled></option>
+                    <option value="Physics">Physics</option>
+                    <option value="Math">Math</option>
+                    <option value="Programming">Programming</option>
+                    <option value="Biology">Biology</option>
+                    <option value="Database">Database</option>
+                    <option value="D.Structure">D.Structure</option>
+                    <option value="IT">IT</option>
+                </select>
+                <input type="submit" value="Submit" class="button" id="submit">
+            </form>
+        </div>
+        <div class="bottom-right">
+            <h2>Scholarships</h2>
+            <h5>HarDarv scholarships support diverse students</h5>
+        </div>
+        </div>
+    </main>
+</body>
+<script src="js.js"></script>
+
+</html>
